@@ -130,7 +130,7 @@ def main():
     signal.signal(signal.SIGTERM, resumer)
 
     check_fastboot_mode()
-
+    # Insert the IMEI here to start from a specific point in the bruteforce process
     imei = input("Enter IMEI: ")
 
     if not verify_imei(imei):
