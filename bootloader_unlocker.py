@@ -1,3 +1,5 @@
+# **This script is not mine, I just modified it to work with the new bootloader unlock method.**
+
 import signal
 import sys
 import os
